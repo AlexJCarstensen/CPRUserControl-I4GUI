@@ -1,0 +1,27 @@
+﻿<Window x:Class="CPRUserControlTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CPRUserControlTest"
+        xmlns:CPRUserControl="clr-namespace:CPRUserControl;assembly=CPRUserControl"
+        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <CPRUserControl:UserControl1 Name="UserControl1"></CPRUserControl:UserControl1>
+        
+        <Button Name="changeCprLabel"
+                Content="Change label"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="10 40 10 10"
+                Click="ChangeCprLabel_OnClick"></Button>
+        <Button Name="showCprNumber"
+                Content="Show CPR"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="100 40 10 10"
+                Click="Show_cpr_number_OnClick"></Button>
+    </Grid>
+</Window>

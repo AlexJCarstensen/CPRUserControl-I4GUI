@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPRUserControl", "CPRUserControl\CPRUserControl.csproj", "{2C2966E6-ABE4-4B39-AE06-3E9A1AC52780}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPRUserControlTest", "CPRUserControlTest\CPRUserControlTest.csproj", "{9999049A-EAF0-4481-88B4-8B7DCB8D41E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2C2966E6-ABE4-4B39-AE06-3E9A1AC52780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C2966E6-ABE4-4B39-AE06-3E9A1AC52780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C2966E6-ABE4-4B39-AE06-3E9A1AC52780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9999049A-EAF0-4481-88B4-8B7DCB8D41E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9999049A-EAF0-4481-88B4-8B7DCB8D41E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9999049A-EAF0-4481-88B4-8B7DCB8D41E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9999049A-EAF0-4481-88B4-8B7DCB8D41E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

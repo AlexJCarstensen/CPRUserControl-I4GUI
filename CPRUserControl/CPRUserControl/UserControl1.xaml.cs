@@ -27,7 +27,7 @@ namespace CPRUserControl
 
         public string CPRNumberText { get { return CprNumber.Content.ToString(); } set { CprNumber.Content = value; } }
 
-        public string CPRNumberInput {
+        public string CPRNumberInput1 {
             get { return CprNumberInput.Text; }
             set { CprNumberInput.Text = value; } }
     }
